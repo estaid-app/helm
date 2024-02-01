@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  pgbouncer:
+  - annotations:
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    appVersion: 1.22.1
+    created: "2024-02-01T15:49:38.972547612Z"
+    description: A Helm chart for deploying pgbouncer on Kubernetes
+    digest: 46749c3f44b384fbf9515caf0d63537642a21ff59974be40731545995ec3fe96
+    home: https://github.com/estaid-app/helm
+    icon: https://estaid-app.github.io/helm/charts/pgbouncer/pgbouncer.png
+    keywords:
+    - pgbouncer
+    - postgresql
+    - database
+    - connection pool
+    - helm
+    - kubernetes
+    kubeVersion: '>= 1.20.0-0'
+    maintainers:
+    - email: kb@estaid.dk
+      name: Kaspar Birk
+      url: https://github.com/estaid-app
+    name: pgbouncer
+    sources:
+    - https://github.com/estaid-app/helm/tree/main/charts/pgbouncer
+    type: application
+    urls:
+    - https://github.com/estaid-app/helm/releases/download/pgbouncer-1.0.0/pgbouncer-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-02-01T15:49:38.972558262Z"
