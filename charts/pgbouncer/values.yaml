@@ -140,12 +140,6 @@ runtimeClassName: ""
 ##
 pgbouncer: {}
 
-## Admin user credentials
-##
-admin:
-  user: admin
-  password: admin
-
 ## Database configuration
 ##
 databases: {}
