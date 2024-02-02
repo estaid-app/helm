@@ -25,12 +25,11 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 {{/*
 Create content for userlist.txt secret
 */}}
-{{- define "pgbouncer.secret.userlist" }}
-"{{ .Values.admin.user }}" "{{ required "A valid .Values.config.adminPassword entry required!" .Values.admin.password }}"
-{{- end }}
-{{- range $key, $val := .Values.userlist }}
+{{- define "pgbouncer.secret.userlist" -}}
+{{- range $key, $val := .Values.userlist -}}
 "{{ $key }}" "{{ $val }}"
-{{- end }}
+{{- end -}}
+{{- end -}}
 
 {{/*
 Create the name of the service account to use

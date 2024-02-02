@@ -137,20 +137,17 @@ priorityClassName: ""
 runtimeClassName: ""
 
 ## PgBouncer configuration
+## https://www.pgbouncer.org/config.html
 ##
 pgbouncer: {}
 
-## Admin user credentials
-##
-admin:
-  user: admin
-  password: admin
-
 ## Database configuration
+## https://www.pgbouncer.org/config.html#section-databases
 ##
 databases: {}
 
-## Userlist configuration
+## Userlist configuration. Userlist is set to a secret
+## and then mounted into the container
 ##
 userlist: {}
 
