@@ -96,7 +96,7 @@ spec:
       volumes:
       - name: config
         configMap:
-          name: {{ template "pgbouncer.fullname" . }}-configmap
+          name: {{ template "pgbouncer.fullname" . }}-config
       - name: userlist
         secret:
           secretName: {{ template "pgbouncer.fullname" . }}-userlist-secret
