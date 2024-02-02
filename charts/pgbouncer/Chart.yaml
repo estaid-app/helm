@@ -2,7 +2,7 @@ apiVersion: v2
 name: pgbouncer
 description: A Helm chart for deploying pgbouncer on Kubernetes
 type: application
-version: 1.0.6
+version: 1.0.7
 appVersion: 1.22.0
 kubeVersion: ">= 1.20.0-0"
 icon: https://estaid-app.github.io/helm/charts/pgbouncer/pgbouncer.jpg
@@ -21,11 +21,4 @@ home: https://github.com/estaid-app/helm
 sources:
   - https://github.com/estaid-app/helm/tree/main/charts/pgbouncer
 annotations:
-  artifacthub.io/images: |
-    - name: pgbouncer-docker
-      image: ghcr.io/estaid-app/pgbouncer-docker:1.22.0
-      whitelisted: true
-      platforms:
-        - linux/amd64
-        - linux/arm64
   artifacthub.io/license: "MIT"
