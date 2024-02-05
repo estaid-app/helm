@@ -7,8 +7,8 @@ This Helm chart deploys pgbouncer on Kubernetes, providing a highly efficient co
 
 ## Chart Details
 
-- **Chart Version:** 1.0.1
-- **App Version:** 1.22.1
+- **Chart Version:** 1.0.7
+- **App Version:** 1.22.0
 - **Kubernetes Version:** >= 1.20.0-0
 
 ## Installing the Chart
