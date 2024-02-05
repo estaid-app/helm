@@ -26,9 +26,9 @@ We truncate at 63 chars because some Kubernetes name fields are limited to this 
 Create content for userlist.txt secret
 */}}
 {{- define "pgbouncer.secret.userlist" -}}
-{{- range $key, $val := .Values.userlist -}}
+{{- range $key, $val := .Values.userlist }}
 "{{ $key }}" "{{ $val }}"
-{{- end -}}
+{{ end -}}
 {{- end -}}
 
 {{/*
